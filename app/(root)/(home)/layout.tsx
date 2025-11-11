@@ -14,7 +14,7 @@ const HomeLayout = ( { children }: { children: ReactNode } ) => {
                 </div>
             </section>
         </div>
-        <div>Footer</div>
+        <div>Footer test</div>
     </main>
   )
 }
