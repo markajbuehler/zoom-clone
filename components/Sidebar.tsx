@@ -19,7 +19,7 @@ const Sidebar = () => {
                   href={link.route}
                   key={link.label}
                   className={cn('flex gap-4 rounded-lg p-4 items-center justify-start', {
-                    'bg-amber-800': isActive,
+                    'bg-amber-500': isActive,
                   })}
                 > 
                   <Image 
