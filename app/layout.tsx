@@ -30,7 +30,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ClerkProvider>
+      <ClerkProvider
+        appearance={{
+          layout: {
+            logoImageUrl: '/icons/yoom-logo.svg', 
+            socialButtonsVariant: 'iconButton'},
+          variables: {
+            colorPrimary: "#2563eb",
+            colorText: "#f3f4f6",
+            colorBackground: "#18181b",
+            colorInputBackground: "#27272a",
+            colorInputText: "#f3f4f6"
+            }
+          }}>
           <body className={`${inter.className} bg-zinc-900`}>{children}</body>
       </ClerkProvider>
     </html>
